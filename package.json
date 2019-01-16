@@ -4,6 +4,7 @@
   "description": "Reddit API for node",
   "main": "index.js",
   "scripts": {
+    "test": "mocha --require @babel/register",
     "build": "yarn run lint && babel ./src -d ./lib",
     "lint": "eslint ./src"
   },
@@ -30,8 +31,10 @@
     "@babel/preset-env": "^7.2.3"
   },
   "devDependencies": {
+    "@babel/register": "^7.0.0",
     "eslint": "^5.12.0",
     "eslint-config-airbnb-base": "^13.1.0",
-    "eslint-plugin-import": "^2.14.0"
+    "eslint-plugin-import": "^2.14.0",
+    "mocha": "^5.2.0"
   }
 }
