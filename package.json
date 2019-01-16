@@ -4,7 +4,8 @@
   "description": "Reddit API for node",
   "main": "index.js",
   "scripts": {
-    "build": "babel ./src -d ./lib"
+    "build": "yarn run lint && babel ./src -d ./lib",
+    "lint": "eslint ./src"
   },
   "repository": {
     "type": "git",
@@ -27,5 +28,10 @@
     "@babel/cli": "^7.2.3",
     "@babel/core": "^7.2.2",
     "@babel/preset-env": "^7.2.3"
+  },
+  "devDependencies": {
+    "eslint": "^5.12.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0"
   }
 }
