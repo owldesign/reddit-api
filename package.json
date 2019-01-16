@@ -4,7 +4,7 @@
   "description": "Reddit API for node",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "babel ./src -d ./lib"
   },
   "repository": {
     "type": "git",
@@ -22,5 +22,10 @@
   "bugs": {
     "url": "https://github.com/owldesign/reddit-api/issues"
   },
-  "homepage": "https://github.com/owldesign/reddit-api#readme"
+  "homepage": "https://github.com/owldesign/reddit-api#readme",
+  "dependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3"
+  }
 }
