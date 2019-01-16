@@ -1,0 +1,26 @@
+{
+  "name": "reddit-api",
+  "version": "1.0.0",
+  "description": "Reddit API for node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/owldesign/reddit-api.git"
+  },
+  "keywords": [
+    "reddit",
+    "reddit api",
+    "node",
+    "api",
+    "owldesign"
+  ],
+  "author": "Vadim Goncharov <vadim@owl-design.net> (https://owl-design.net/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/owldesign/reddit-api/issues"
+  },
+  "homepage": "https://github.com/owldesign/reddit-api#readme"
+}
